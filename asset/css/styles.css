@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+
+main {
+  height: 100%;
+  display: grid;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+#stopwatch {
+  margin: 200px;
+  padding: 20px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  background: white;
+}
+
+#display {
+  font-size: 3rem;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+}
+
+#controls button {
+  margin: 0 6px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.12s, opacity 0.12s;
+}
+
+#controls button:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
